@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="es-AR" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Dirección de arte · J.R. Martínez Quiles</title>
+<link rel="preload" href="fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/poppins-400.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:"Archivo";src:url(fonts/archivo-var.woff2) format("woff2");font-weight:100 900;font-stretch:62% 125%;font-display:swap}
+@font-face{font-family:"Poppins";src:url(fonts/poppins-400.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Poppins";src:url(fonts/poppins-500.woff2) format("woff2");font-weight:500;font-display:swap}
+@font-face{font-family:"Poppins";src:url(fonts/poppins-600.woff2) format("woff2");font-weight:600;font-display:swap}
+
+:root{
+  --ink:#211E20; --ink-2:#2E2A2D; --yellow:#F0E12C; --yellow-press:#F7EC6A;
+  --bg:#F4F2EC; --stone:#E8E4D9; --surface:#FFFFFF; --line:#D9D4C7; --muted:#5E5A57; --muted-on-dark:#B9B4AE;
+  --cta:var(--ink); --cta-ink:#FFFFFF;
+  --font-display:"Archivo",system-ui,sans-serif; --font-body:"Poppins",system-ui,sans-serif;
+  --r:4px; --cut:22px;
+  --ease:cubic-bezier(.22,1,.36,1); --ease-io:cubic-bezier(.76,0,.24,1); --dur:1.05s; --dist:26px; --t-hover:.45s;
+  --gutter:clamp(18px,4.4vw,64px); --maxw:1320px;
+  --hex:polygon(50% 0,100% 17%,100% 83%,50% 100%,0 83%,0 17%);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.6 var(--font-body);overflow-x:clip;-webkit-font-smoothing:antialiased}
+img,svg{display:block;max-width:100%}
+h1,h2,h3,p{margin:0}
+a{color:inherit}
+button{font:inherit;color:inherit;cursor:pointer}
+.wrap{max-width:var(--maxw);margin-inline:auto;padding-inline:var(--gutter)}
+:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+.oscuro :focus-visible{outline-color:var(--yellow)}
+
+/* ---------- Piezas de marca ---------- */
+.barras{display:inline-flex;align-items:flex-end;gap:3px;height:16px}
+.barras i{display:block;width:4px;background:currentColor;transform-origin:50% 100%}
+.barras i:nth-child(1){height:60%}.barras i:nth-child(2){height:100%;background:var(--yellow)}.barras i:nth-child(3){height:60%}
+.ceja{display:flex;align-items:center;gap:10px;font:600 12px/1 var(--font-body);letter-spacing:.14em;text-transform:uppercase}
+.titulo{font-family:var(--font-display);font-weight:760;font-stretch:112%;letter-spacing:-.025em;line-height:.98}
+.sub{display:inline;background:linear-gradient(var(--yellow),var(--yellow)) 0 92%/var(--sub,100%) .34em no-repeat}
+.oscuro .sub{background-position:0 100%;background-size:var(--sub,100%) .13em;padding-bottom:.08em}
+
+.btn{display:inline-flex;align-items:center;gap:14px;min-height:56px;padding:6px 6px 6px 24px;border:0;border-radius:var(--r);
+  background:var(--cta);color:var(--cta-ink);font:600 16px/1 var(--font-body);text-decoration:none;transition:transform var(--t-hover) var(--ease)}
+.btn__flecha{display:grid;place-items:center;width:44px;height:44px;background:var(--yellow);color:var(--ink);
+  clip-path:polygon(0 0,calc(100% - 10px) 0,100% 10px,100% 100%,0 100%);overflow:hidden}
+.btn__flecha svg{width:18px;height:18px;transition:transform var(--t-hover) var(--ease)}
+.btn:hover .btn__flecha svg{transform:translateX(4px)}
+.btn:active{transform:scale(.97)}
+.oscuro .btn{background:var(--yellow);color:var(--ink)}
+.oscuro .btn .btn__flecha{background:var(--ink);color:var(--yellow)}
+
+/* ---------- Portada ---------- */
+.portada{position:relative;min-height:calc(100svh - 33px);display:flex;flex-direction:column;overflow:hidden;isolation:isolate}
+.nav{width:100%;display:flex;align-items:center;justify-content:space-between;padding-block:14px}
+.nav__logo{background:var(--bg)}
+.nav__logo img{height:54px;width:auto;mix-blend-mode:multiply}
+.nav__links{display:none;gap:30px;font:500 15px/1 var(--font-body)}
+.nav__links a{text-decoration:none;padding-block:10px;background:linear-gradient(var(--yellow),var(--yellow)) 0 100%/0 3px no-repeat;transition:background-size var(--t-hover) var(--ease)}
+.nav__links a:hover{background-size:100% 3px}
+.nav__menu{display:grid;place-items:center;width:48px;height:48px;border:1.5px solid var(--ink);border-radius:var(--r);background:none}
+.nav__menu span{display:block;width:20px;height:2px;background:var(--ink);box-shadow:0 6px 0 var(--ink),0 -6px 0 var(--ink)}
+
+.portada__cuerpo{flex:1;display:grid;gap:28px;padding-block:18px 0;align-content:start}
+.portada__texto{display:grid;gap:18px;justify-items:start}
+.portada h1{font-size:clamp(46px,13.4vw,128px)}
+.linea{display:block;overflow:hidden;padding-bottom:.12em;margin-bottom:-.12em}
+.linea__in{display:block}
+.portada__bajada{max-width:34ch;color:var(--muted);font-size:clamp(15px,1.25vw,18px)}
+.portada__foto{position:relative;justify-self:center;width:min(80vw,560px);aspect-ratio:5/6;margin-bottom:-14%}
+.portada__foto .marco{position:absolute;inset:0;clip-path:var(--hex);overflow:hidden;background:var(--stone)}
+.portada__foto img{width:100%;height:100%;object-fit:cover}
+.portada__foto .contorno{position:absolute;inset:0;overflow:visible;transform:translate(9px,10px)}
+.portada__foto .contorno polygon{fill:none;stroke:var(--yellow);stroke-width:5;vector-effect:non-scaling-stroke}
+.etiqueta{position:absolute;left:-6px;bottom:26%;display:grid;gap:2px;padding:12px 16px;background:var(--ink);color:#fff;
+  clip-path:polygon(0 0,calc(100% - 14px) 0,100% 14px,100% 100%,0 100%);font-size:13px;line-height:1.3}
+.etiqueta b{font:700 17px/1.1 var(--font-display);font-stretch:108%}
+.etiqueta small{color:var(--muted-on-dark);font-size:11px;letter-spacing:.1em;text-transform:uppercase}
+
+.buscador{display:none}
+
+@media (min-width:900px){
+  .nav__links{display:flex}.nav__menu{display:none}
+  .nav__logo img{height:64px}
+  .portada__cuerpo{grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);align-items:center;gap:40px;padding-block:10px 120px}
+  .portada h1{font-size:clamp(54px,5.7vw,104px);white-space:nowrap}
+  .portada__foto .contorno{transform:translate(16px,16px)}
+  .portada__foto{width:min(40vw,540px);margin-bottom:0;justify-self:end;margin-right:14px}
+  .portada__texto .btn{display:none}
+  .buscador{position:absolute;left:var(--gutter);right:var(--gutter);bottom:28px;max-width:calc(var(--maxw) - 2*var(--gutter));margin-inline:auto;
+    display:grid;grid-template-columns:auto 1fr 1fr auto;align-items:stretch;background:var(--surface);border:1.5px solid var(--ink);border-radius:var(--r);
+    box-shadow:10px 10px 0 var(--yellow)}
+  .buscador__op{display:flex;padding:8px;gap:4px;border-right:1px solid var(--line)}
+  .buscador__op button{padding:0 22px;border:0;border-radius:var(--r);background:none;font:600 15px/1 var(--font-body);min-height:48px}
+  .buscador__op button[aria-pressed=true]{background:var(--ink);color:#fff}
+  .buscador label{display:grid;gap:2px;padding:12px 22px;border-right:1px solid var(--line);font-size:12px;color:var(--muted)}
+  .buscador select{border:0;background:none;font:600 16px/1.2 var(--font-body);color:var(--ink);padding:0;appearance:none}
+  .buscador .btn{margin:8px}
+}
+
+/* cortina de la firma */
+.cortina{position:absolute;inset:0;z-index:5;background:var(--ink);display:none;place-items:center;pointer-events:none}
+.js .cortina{display:grid}
+.cortina svg{width:min(34vw,150px);overflow:visible}
+
+/* ---------- Hoja ---------- */
+.aviso{background:var(--ink);color:#fff;text-align:center;font-size:12px;padding:7px 12px;letter-spacing:.04em}
+.controles{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:center;padding:26px var(--gutter)}
+.repetir{min-height:48px;padding:0 22px;background:none;border:1.5px solid var(--ink);border-radius:var(--r);font-weight:600}
+.nota-rm{font-size:13px;color:var(--muted);max-width:44ch}
+.bloque{padding-block:clamp(48px,7vw,96px)}
+.bloque h2{font-size:clamp(30px,5.4vw,56px);margin:14px 0 10px}
+.bloque > .wrap > p{max-width:56ch;color:var(--muted)}
+.oscuro{background:var(--ink);color:#fff}
+.oscuro .bloque > .wrap > p,.oscuro p{color:var(--muted-on-dark)}
+
+.paleta{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:28px}
+.color{display:grid;gap:8px;font-size:13px;line-height:1.4}
+.color i{display:block;height:84px;border-radius:var(--r);border:1px solid var(--line)}
+.color b{font-weight:600}.color span{color:var(--muted)}
+@media (min-width:800px){.paleta{grid-template-columns:repeat(5,1fr)}}
+
+.letras{display:grid;gap:26px;margin-top:28px}
+.letras .t1{font-size:clamp(40px,8vw,88px)}
+.letras .t2{font-size:clamp(24px,3.4vw,36px);font-weight:700}
+.letras small{display:block;font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+
+.piezas{display:grid;gap:14px;margin-top:28px}
+.pieza{display:grid;grid-template-columns:96px 1fr;gap:18px;align-items:center;padding:18px;border:1px solid #3d383b;border-radius:var(--r)}
+.pieza h3{font:700 17px/1.2 var(--font-display);font-stretch:108%;color:#fff;margin-bottom:4px}
+.pieza p{font-size:14px;line-height:1.5}
+.pieza__dib{display:grid;place-items:center;height:96px}
+.pieza__dib .barras{height:56px;gap:8px;color:#fff}.pieza__dib .barras i{width:14px}
+.mini-hex{width:74px;aspect-ratio:5/6;clip-path:var(--hex);background:url(https://www.topinmobiliario.com/portal/fot/JRM/JRM1635A.JPG) center/cover}
+.mini-linea{font:760 22px/1 var(--font-display);color:#fff}
+.mini-corte{width:78px;height:58px;background:var(--yellow);clip-path:polygon(0 0,calc(100% - var(--cut)) 0,100% var(--cut),100% 100%,0 100%)}
+@media (min-width:800px){.piezas{grid-template-columns:repeat(2,1fr)}}
+
+.demo{display:grid;gap:36px;margin-top:28px;align-items:start}
+@media (min-width:800px){.demo{grid-template-columns:auto minmax(0,400px);gap:72px}}
+.tarjeta{display:grid;background:var(--surface);border-radius:var(--r);text-decoration:none;overflow:hidden;transition:transform var(--t-hover) var(--ease)}
+.tarjeta__foto{position:relative;aspect-ratio:4/3;overflow:hidden;clip-path:polygon(0 0,calc(100% - var(--cut)) 0,100% var(--cut),100% 100%,0 100%);background:var(--stone)}
+.tarjeta__foto img{width:100%;height:100%;object-fit:cover;transition:transform .9s var(--ease)}
+.tarjeta:hover .tarjeta__foto img{transform:scale(1.06)}
+.tarjeta__op{position:absolute;left:0;bottom:0;padding:8px 14px;background:var(--yellow);font:600 12px/1 var(--font-body);letter-spacing:.1em;text-transform:uppercase}
+.tarjeta__cuerpo{display:grid;gap:8px;padding:18px 20px 20px}
+.tarjeta__cod{display:flex;align-items:center;gap:8px;font-size:12px;letter-spacing:.1em;color:var(--muted)}
+.tarjeta h3{font:700 20px/1.2 var(--font-display);font-stretch:108%}
+.tarjeta h3 span{background:linear-gradient(var(--yellow),var(--yellow)) 0 100%/0 .3em no-repeat;transition:background-size var(--t-hover) var(--ease)}
+.tarjeta:hover h3 span{background-size:100% .3em}
+.tarjeta__dir{font-size:14px;color:var(--muted)}
+.tarjeta__pie{display:flex;justify-content:space-between;align-items:center;margin-top:8px;padding-top:14px;border-top:1px solid var(--line)}
+.tarjeta__precio{font:760 24px/1 var(--font-display);font-stretch:108%}
+.tarjeta__ver{font-size:14px;font-weight:600}
+.pie-hoja{padding:28px var(--gutter) 40px;text-align:center;font-size:13px;color:var(--muted)}
+
+@media (prefers-reduced-motion:reduce){*{transition-duration:.01ms!important}}
+</style>
+<script>document.documentElement.className=document.documentElement.className.replace('no-js','js');</script>
+</head>
+<body>
+
+<p class="aviso">Hoja de muestra · no se publica</p>
+
+<!-- ===== INICIO Portada ===== -->
+<section class="portada" data-portada>
+  <header class="nav wrap" data-pieza>
+    <a class="nav__logo" href="#" aria-label="J.R. Martínez Quiles Inmobiliaria"><img src="img/logo.gif" width="530" height="130" alt="J.R. Martínez Quiles Inmobiliaria"></a>
+    <nav class="nav__links" aria-label="Principal">
+      <a href="#">Alquilar</a><a href="#">Comprar</a><a href="#">Vender</a><a href="#">Servicios</a><a href="#">La inmobiliaria</a><a href="#">Contacto</a>
+    </nav>
+    <button class="nav__menu" type="button" aria-label="Abrir menú"><span></span></button>
+  </header>
+
+  <div class="portada__cuerpo wrap">
+    <div class="portada__texto">
+      <p class="ceja" data-pieza><span class="barras" aria-hidden="true"><i></i><i></i><i></i></span>Resistencia, Chaco · más de 30 años</p>
+      <h1 class="titulo">
+        <span class="linea"><span class="linea__in">Vos buscás</span></span>
+        <span class="linea"><span class="linea__in">tu lugar</span></span>
+        <span class="linea"><span class="linea__in"><span class="sub" data-sub>en el mundo.</span></span></span>
+      </h1>
+      <p class="portada__bajada" data-pieza>Casas, departamentos, locales y terrenos en venta y alquiler, con el respaldo de una firma de corredores y escribanos.</p>
+      <a class="btn" href="#" data-pieza>Ver propiedades <span class="btn__flecha"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></span></a>
+    </div>
+
+    <div class="portada__foto" data-foto>
+      <svg class="contorno" viewBox="0 0 100 120" preserveAspectRatio="none" aria-hidden="true"><polygon data-contorno points="50,0 100,20.4 100,99.6 50,120 0,99.6 0,20.4"/></svg>
+      <div class="marco"><img src="https://www.topinmobiliario.com/portal/fot/JRM/JRM1635A.JPG" alt="Casa tipo chalet en Hipólito Yrigoyen 676, Resistencia" width="1024" height="766" fetchpriority="high"></div>
+      <div class="etiqueta" data-pieza><small>En venta · JRM 1635</small><b>Chalet de 3 dormitorios</b>Hipólito Yrigoyen 676, Centro</div>
+    </div>
+  </div>
+
+  <form class="buscador" data-pieza onsubmit="return false" aria-label="Buscar propiedades">
+    <div class="buscador__op"><button type="button" aria-pressed="true">Comprar</button><button type="button" aria-pressed="false">Alquilar</button></div>
+    <label>Tipo de inmueble<select><option>Casas</option><option>Departamentos</option><option>Locales</option><option>Terrenos</option></select></label>
+    <label>Localidad<select><option>Resistencia</option><option>Fontana</option><option>Puerto Tirol</option></select></label>
+    <button class="btn" type="submit">Buscar <span class="btn__flecha"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></span></button>
+  </form>
+
+  <div class="cortina" data-cortina aria-hidden="true">
+    <svg viewBox="0 0 100 116" data-iso>
+      <defs><clipPath id="iso-int"><polygon points="50,17 86,37 86,79 50,99 14,79 14,37"/></clipPath></defs>
+      <g clip-path="url(#iso-int)">
+        <rect data-barra x="24" y="50" width="14" height="60" fill="#fff"/>
+        <rect data-barra x="43" y="30" width="14" height="80" fill="#F0E12C"/>
+        <rect data-barra x="62" y="50" width="14" height="60" fill="#fff"/>
+      </g>
+      <polygon data-hexa points="50,5 95,31 95,85 50,111 5,85 5,31" fill="none" stroke="#fff" stroke-width="9" stroke-linejoin="miter" stroke-linecap="square"/>
+    </svg>
+  </div>
+</section>
+<!-- ===== FIN Portada ===== -->
+
+<p class="controles">
+  <button type="button" class="repetir" data-ver-de-nuevo>Ver de nuevo</button>
+  <span class="nota-rm" data-aviso-rm hidden>Tenés activado "Reducir movimiento": acá ves una versión sin desplazamientos. Apagalo para ver la animación completa.</span>
+</p>
+
+<!-- ===== INICIO Paleta ===== -->
+<section class="bloque"><div class="wrap">
+  <p class="ceja"><span class="barras" aria-hidden="true"><i></i><i></i><i></i></span>Colores</p>
+  <h2 class="titulo">Negro y amarillo, <span class="sub">los de tu logo</span></h2>
+  <p>El amarillo se usa poco y siempre para señalar: un subrayado, una flecha, una etiqueta. El negro da el peso de una firma con trayectoria.</p>
+  <div class="paleta">
+    <div class="color"><i style="background:#211E20"></i><b>Negro de marca #211E20</b><span>Textos, botones y secciones de peso</span></div>
+    <div class="color"><i style="background:#F0E12C"></i><b>Amarillo de marca #F0E12C</b><span>Subrayados, flechas y etiquetas</span></div>
+    <div class="color"><i style="background:#F4F2EC"></i><b>Papel #F4F2EC</b><span>Fondo general, más cálido que el blanco</span></div>
+    <div class="color"><i style="background:#E8E4D9"></i><b>Piedra #E8E4D9</b><span>Fondos de apoyo y recuadros</span></div>
+    <div class="color"><i style="background:#FFFFFF"></i><b>Blanco #FFFFFF</b><span>Tarjetas y formularios</span></div>
+  </div>
+</div></section>
+<!-- ===== FIN Paleta ===== -->
+
+<!-- ===== INICIO Letras ===== -->
+<section class="bloque" style="background:var(--stone)"><div class="wrap">
+  <p class="ceja"><span class="barras" aria-hidden="true"><i></i><i></i><i></i></span>Letras</p>
+  <div class="letras">
+    <div><small>Títulos · letra ancha y gruesa, como la del logo</small><p class="titulo t1">Quiero vender mi propiedad</p></div>
+    <div><small>Subtítulos</small><p class="titulo t2">Tasaciones particulares y bancarias</p></div>
+    <div><small>Textos · Poppins, la que ya usa el sitio</small><p style="max-width:58ch">Más de 30 años de trayectoria en Resistencia. Venta, alquiler, administración y tasación de inmuebles en toda la provincia del Chaco, con asesoramiento jurídico sobre derechos reales y contractuales.</p></div>
+  </div>
+</div></section>
+<!-- ===== FIN Letras ===== -->
+
+<!-- ===== INICIO Elementos ===== -->
+<section class="bloque oscuro"><div class="wrap">
+  <p class="ceja"><span class="barras" aria-hidden="true"><i></i><i></i><i></i></span>Elementos propios</p>
+  <h2 class="titulo">Todo sale de <span class="sub">tu símbolo</span></h2>
+  <p>Cuatro piezas que se repiten en toda la web para que se reconozca aunque tapes el logo.</p>
+  <div class="piezas">
+    <div class="pieza"><div class="pieza__dib"><span class="barras" data-demo-barras><i></i><i></i><i></i></span></div><div><h3>Las tres barras</h3><p>Los edificios de adentro del símbolo. Crecen desde abajo al aparecer cada sección y marcan los títulos.</p></div></div>
+    <div class="pieza"><div class="pieza__dib"><div class="mini-hex"></div></div><div><h3>La ventana hexagonal</h3><p>El contorno del símbolo se vuelve el marco de las fotos importantes y la forma en que se abre la página.</p></div></div>
+    <div class="pieza"><div class="pieza__dib"><span class="mini-linea"><span class="sub">Tu lugar</span></span></div><div><h3>La línea amarilla</h3><p>La raya que subraya tu nombre en el logo. Se dibuja bajo la palabra clave y bajo cada enlace al pasar el mouse.</p></div></div>
+    <div class="pieza"><div class="pieza__dib"><div class="mini-corte"></div></div><div><h3>La esquina en corte</h3><p>El ángulo del hexágono recorta una esquina de fotos, etiquetas y botones. Nada de esquinas redondas de plantilla.</p></div></div>
+  </div>
+</div></section>
+<!-- ===== FIN Elementos ===== -->
+
+<!-- ===== INICIO Botón y tarjeta ===== -->
+<section class="bloque"><div class="wrap">
+  <p class="ceja"><span class="barras" aria-hidden="true"><i></i><i></i><i></i></span>Botón y tarjeta</p>
+  <h2 class="titulo">Así se ve una propiedad</h2>
+  <p>Pasá el mouse (o tocá) para ver cómo responden.</p>
+  <div class="demo">
+    <a class="btn" href="#">Ver propiedades <span class="btn__flecha"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></span></a>
+    <a class="tarjeta" href="#">
+      <div class="tarjeta__foto"><img src="https://www.topinmobiliario.com/portal/fot/JRM/JRM2252A.JPG" alt="Frente de la casa en Sarratea 10" loading="lazy" width="1320" height="880"><span class="tarjeta__op">Venta</span></div>
+      <div class="tarjeta__cuerpo">
+        <p class="tarjeta__cod"><span class="barras" aria-hidden="true" style="height:12px"><i></i><i></i><i></i></span>JRM 2252 · CASA</p>
+        <h3><span>Sarratea 10, Villa Don Enrique</span></h3>
+        <p class="tarjeta__dir">1 dormitorio · 1 planta · 106,97 m² cubiertos</p>
+        <div class="tarjeta__pie"><span class="tarjeta__precio">U$S 62.000</span><span class="tarjeta__ver">Ver ficha →</span></div>
+      </div>
+    </a>
+  </div>
+</div></section>
+<!-- ===== FIN Botón y tarjeta ===== -->
+
+<p class="pie-hoja">Fotos y datos reales tomados del sitio actual el 13/11/2026.</p>
+
+<script src="vendor/gsap.min.js" defer></script>
+<script src="vendor/ScrollTrigger.min.js" defer></script>
+<script src="vendor/SplitText.min.js" defer></script>
+<script src="vendor/lenis.min.js" defer></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  'use strict';
+  const d = document, html = d.documentElement;
+  const $ = (s, c = d) => c.querySelector(s);
+  const $$ = (s, c = d) => [...c.querySelectorAll(s)];
+  const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const hasGSAP = typeof window.gsap !== 'undefined' && typeof window.ScrollTrigger !== 'undefined';
+  const safe = (fn) => { try { fn(); } catch (e) { console.warn('[mq]', e); } };
+  const M = { ease: 'power4.out', easeIO: 'power3.inOut', pop: 'power4.out', dur: 1.05, stagger: 0.08, dist: 26, lerp: 0.1 };
+
+  const cortina = $('[data-cortina]');
+  if (!hasGSAP) { html.classList.remove('js'); const r = $('[data-ver-de-nuevo]'); if (r) r.hidden = true; return; }
+  gsap.registerPlugin(ScrollTrigger);
+
+  // Scroll con inercia
+  safe(() => {
+    if (RM || !window.Lenis) return;
+    const lenis = new Lenis({ lerp: M.lerp });
+    lenis.on('scroll', ScrollTrigger.update);
+    gsap.ticker.add((t) => lenis.raf(t * 1000));
+    gsap.ticker.lagSmoothing(0);
+    window.__lenis = lenis;
+  });
+
+  // La cortina negra con un hueco hexagonal que crece (la ventana del símbolo)
+  const hueco = { s: 0 };
+  function pintarHueco() {
+    const w = cortina.offsetWidth, h = cortina.offsetHeight, cx = w / 2, cy = h / 2;
+    const R = hueco.s * Math.hypot(w, h) * 0.62, a = R * 0.866, b = R * 0.5;
+    const p = [[cx, cy - R], [cx + a, cy - b], [cx + a, cy + b], [cx, cy + R], [cx - a, cy + b], [cx - a, cy - b], [cx, cy - R]];
+    cortina.style.clipPath = `polygon(evenodd,0 0,${w}px 0,${w}px ${h}px,0 ${h}px,0 0,${p.map((q) => q[0].toFixed(1) + 'px ' + q[1].toFixed(1) + 'px').join(',')})`;
+  }
+
+  function firmaPortada() {
+    const barras = $$('[data-barra]'), hexa = $('[data-hexa]'), contorno = $('[data-contorno]');
+    const L = hexa.getTotalLength(), LC = contorno.getTotalLength();
+    const tl = gsap.timeline({ defaults: { ease: M.ease } });
+    tl.set(cortina, { display: 'grid', autoAlpha: 1 })
+      .call(() => { hueco.s = 0; cortina.style.clipPath = 'none'; })
+      .set('[data-iso]', { autoAlpha: 1, scale: 1 })
+      .set(barras, { scaleY: 0, transformOrigin: '50% 100%' })
+      .set(hexa, { strokeDasharray: L, strokeDashoffset: L })
+      .set('.linea__in', { yPercent: 108 })
+      .set('[data-portada] [data-pieza]', { autoAlpha: 0, y: M.dist })
+      .set('[data-foto] .marco img', { scale: 1.16 })
+      .set(contorno, { strokeDasharray: LC, strokeDashoffset: LC })
+      .set('[data-sub]', { '--sub': '0%' })
+      // 1. los edificios se levantan
+      .to(barras, { scaleY: 1, duration: 0.7, stagger: 0.11, ease: 'power3.out' }, 0.15)
+      // 2. el hexágono los rodea
+      .to(hexa, { strokeDashoffset: 0, duration: 0.85, ease: 'power2.inOut' }, 0.45)
+      // 3. la ventana se abre
+      .to('[data-iso]', { scale: 1.5, autoAlpha: 0, duration: 0.5, ease: 'power2.in' }, 1.75)
+      .to(hueco, { s: 1, duration: 1.15, ease: M.easeIO, onUpdate: pintarHueco }, 1.8)
+      .set(cortina, { display: 'none' })
+      // 4. la portada se arma
+      .to('[data-foto] .marco img', { scale: 1, duration: 1.7 }, 2.0)
+      .to('.linea__in', { yPercent: 0, duration: M.dur, stagger: M.stagger + 0.03 }, 2.25)
+      .to('[data-portada] [data-pieza]', { autoAlpha: 1, y: 0, duration: M.dur, stagger: M.stagger }, 2.5)
+      .to(contorno, { strokeDashoffset: 0, duration: 1.2, ease: 'power2.inOut' }, 2.55)
+      .to('[data-sub]', { '--sub': '100%', duration: 0.9, ease: 'power3.inOut' }, 3.0);
+    return tl;
+  }
+
+  safe(() => {
+    const repetir = $('[data-ver-de-nuevo]'), aviso = $('[data-aviso-rm]');
+    if (RM) {
+      cortina.style.display = 'none';
+      if (aviso) aviso.hidden = false;
+      repetir.addEventListener('click', () => gsap.fromTo('[data-portada] [data-pieza], .linea__in, [data-foto]', { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.5, stagger: 0.1, ease: 'none' }));
+      return;
+    }
+    let tl = null;
+    const rescate = setTimeout(() => { if (!tl) cortina.style.display = 'none'; }, 3000);
+    Promise.race([d.fonts ? d.fonts.ready : Promise.resolve(), new Promise((r) => setTimeout(r, 1200))])
+      .then(() => { clearTimeout(rescate); tl = firmaPortada(); });
+    cortina.parentElement.addEventListener('pointerdown', () => { if (tl && tl.time() < 2) tl.time(2); });
+    repetir.addEventListener('click', () => { if (window.__lenis) window.__lenis.scrollTo(0, { immediate: true }); else scrollTo(0, 0); if (tl) tl.restart(); });
+  });
+
+  // Rima: las barras crecen y los títulos suben al entrar cada bloque
+  safe(() => {
+    if (RM) return;
+    $$('.bloque').forEach((b) => {
+      const piezas = [...$$('.ceja', b), ...$$('h2', b), ...$$('.wrap > p:not(.ceja)', b), ...$$('.color,.letras > div,.pieza,.demo > *', b)];
+      gsap.from(piezas, { autoAlpha: 0, y: M.dist, duration: M.dur, ease: M.ease, stagger: M.stagger, scrollTrigger: { trigger: b, start: 'top 78%', once: true } });
+      gsap.from($$('.ceja .barras i', b), { scaleY: 0, duration: 0.7, ease: 'power3.out', stagger: 0.1, scrollTrigger: { trigger: b, start: 'top 78%', once: true } });
+      $$('h2 .sub', b).forEach((s) => gsap.from(s, { '--sub': '0%', duration: 0.9, ease: 'power3.inOut', delay: 0.5, scrollTrigger: { trigger: b, start: 'top 78%', once: true } }));
+    });
+    gsap.from('[data-demo-barras] i', { scaleY: 0, duration: 0.8, ease: 'power3.out', stagger: 0.14, repeat: -1, repeatDelay: 1.6, yoyo: true });
+  });
+});
+</script>
+</body>
+</html>

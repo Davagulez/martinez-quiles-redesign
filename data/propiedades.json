@@ -1,0 +1,1685 @@
+{
+  "fuente": "https://inmobiliariamartinezquiles.com.ar/",
+  "generado": "2026-11-13",
+  "nota": "Muestra congelada de propiedades publicadas. Se reemplaza por la API de Top Inmobiliario (JRM).",
+  "totales": {
+    "venta": 74,
+    "alquiler": 57
+  },
+  "propiedades": [
+    {
+      "codigo": "2229",
+      "operacion": "Venta",
+      "tipo": "Terrenos/Fracciones/Loteos",
+      "resumen": "Terrenos, 600 mts2 de Superficie.",
+      "direccion": "PUEBLO MIO (46). RUTA 11 KM 1018",
+      "actualizado": "23/09/2026",
+      "precio": {
+        "moneda": "ARS",
+        "valor": 20400000
+      },
+      "titulo": "Terrenos/Fracciones/Loteos: PUEBLO MIO (46). RUTA 11 KM Nro:1000 - Resistencia, Prov. Chaco - Argentina",
+      "subtipo": "Terrenos",
+      "localidad": "Resistencia",
+      "descripcion": "Barrio Privado Pueblo Mío Características del barrio: . Espacios verdes y diseño que conserva la arboleda existente. . Laguna con más de 1.200 metros de costa. . Posibilidad de realizar deportes náuticos sin motor. . Calles internas con ripio en la avenida principal. . Alumbrado público. Formas de pago: Contado: 15% de descuento sobre el precio de lista. Financiación: Sin entrega inicial. Saldo financiado hasta en 120 cuotas en UVI. Cuota inicial estimada: $328.771 (referencial). Para más información o consultas: WhatsApp 3625224146",
+      "caracteristicas": [
+        {
+          "nombre": "Entre calles",
+          "valor": "MANZANA 4 - PARCELA 46"
+        },
+        {
+          "nombre": "Ubicación en lote",
+          "valor": "Frente"
+        },
+        {
+          "nombre": "Zonificación",
+          "valor": "Residencial"
+        },
+        {
+          "nombre": "Frente del terreno",
+          "valor": "20 m2"
+        },
+        {
+          "nombre": "Largo",
+          "valor": "30 mts"
+        },
+        {
+          "nombre": "Planos aprobados",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Superficie",
+          "valor": "600"
+        }
+      ],
+      "fotos": [
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2229A.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2229B.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2229C.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2229D.JPG"
+      ]
+    },
+    {
+      "codigo": "1635",
+      "operacion": "Venta",
+      "tipo": "Casas",
+      "resumen": "Casa tipo chalet de 3 dormitorios en 2 plantas. 190 m2 cubiertos. .",
+      "direccion": "Hipolito Yrigoyen 676, Centro",
+      "actualizado": "17/11/2025",
+      "precio": {
+        "moneda": "USD",
+        "valor": null
+      },
+      "titulo": "Casas: Hipolito Yrigoyen Nro:600 - Resistencia, Prov. Chaco - Argentina",
+      "subtipo": "Chalet",
+      "localidad": "Resistencia",
+      "descripcion": "Inmueble ubicado en el centro de la ciudad de Resistencia, 2 cuadras de la Municipalidad, cuanta con 3 dormitorios en planta alta, uno en suite, y un baño para los otros dos dormitorios, tiene la posibilidad de que se construya un dormitorio más, balcon y terraza, en planta baja gran living comedor, cocina, lavadero, baño, además una habitación de servicio con baño, patio y cochera para 2 automoviles en linea.",
+      "caracteristicas": [
+        {
+          "nombre": "Plantas",
+          "valor": "2"
+        },
+        {
+          "nombre": "Antigüedad",
+          "valor": "35 años"
+        },
+        {
+          "nombre": "Agua caliente",
+          "valor": "Termotanque"
+        },
+        {
+          "nombre": "Desagües cloacales",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Pavimento",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Agua corriente",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Superficie del terreno",
+          "valor": "230 m2"
+        },
+        {
+          "nombre": "Frente del terreno",
+          "valor": "10 m2"
+        },
+        {
+          "nombre": "Largo",
+          "valor": "23 mts"
+        },
+        {
+          "nombre": "Superficie cubierta",
+          "valor": "190 m2"
+        },
+        {
+          "nombre": "Patios",
+          "valor": "100"
+        },
+        {
+          "nombre": "Cantidad de dormitorios",
+          "valor": "3"
+        },
+        {
+          "nombre": "Cantidad de baños",
+          "valor": "4"
+        },
+        {
+          "nombre": "Garage",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Dependencia de servicio",
+          "valor": "Si"
+        }
+      ],
+      "fotos": [
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1635A.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1635B.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1635C.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1635D.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1635E.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1635F.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1635G.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1635H.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1635I.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1635J.JPG"
+      ]
+    },
+    {
+      "codigo": "1018",
+      "operacion": "Venta",
+      "tipo": "Departamentos",
+      "resumen": "Departamento de 1 ambiente de buena categoría. Estado bueno, con cochera para un auto.",
+      "direccion": "Av. Chaco 340, Villa Central Norte",
+      "actualizado": "10/10/2026",
+      "precio": {
+        "moneda": "USD",
+        "valor": 22000
+      },
+      "titulo": "Departamentos: Av. Chaco Nro:300 - Resistencia, Prov. Chaco - Argentina",
+      "subtipo": "1 Ambiente",
+      "localidad": "Resistencia",
+      "descripcion": "Departamento monoambiente ubicado en 2° piso con orientación contrafrente. Cuenta además con cochera unidad complementaria N° II, bajo techo. Zona UNNE y Hospital Perrando. Venta compartida con Inmobiliaria Grupo Bel.",
+      "caracteristicas": [
+        {
+          "nombre": "Piso",
+          "valor": "2"
+        },
+        {
+          "nombre": "Entre calles",
+          "valor": "OBLIGADO Y AMEGHINO"
+        },
+        {
+          "nombre": "Cocheras",
+          "valor": "1"
+        },
+        {
+          "nombre": "Cochera fija",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Ubicación en planta",
+          "valor": "Contrafte"
+        },
+        {
+          "nombre": "Estado",
+          "valor": "Bueno"
+        },
+        {
+          "nombre": "Superficie cubierta",
+          "valor": "25 m2"
+        },
+        {
+          "nombre": "Superficie total",
+          "valor": "30 m2"
+        },
+        {
+          "nombre": "Categoría del edificio",
+          "valor": "Buena"
+        },
+        {
+          "nombre": "Cantidad de pisos",
+          "valor": "3"
+        },
+        {
+          "nombre": "Expensas",
+          "valor": "40600"
+        }
+      ],
+      "fotos": [
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1018A.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1018B.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1018C.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1018D.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1018E.JPG"
+      ]
+    },
+    {
+      "codigo": "2153",
+      "operacion": "Venta",
+      "tipo": "Locales",
+      "resumen": "Local A la Calle de Buena categoría. Unidad en estado Bueno.",
+      "direccion": "Pasaje Lapacho 620",
+      "actualizado": "17/11/2025",
+      "precio": {
+        "moneda": "USD",
+        "valor": 70000
+      },
+      "titulo": "Locales: Pasaje Lapacho Nro:600 - Fontana, Prov. Chaco - Argentina",
+      "subtipo": "A la Calle",
+      "localidad": "Fontana",
+      "descripcion": "Propiedad de 72 m² cubiertos sobre lote de 200 m², muy buen estado general. Actualmente funciona como consultorio odontológico, con una distribución adaptable a vivienda unifamiliar sin necesidad de grandes reformas. Cuenta con servicios completos, buen acceso y visibilidad a mitad de cuadra. Incluye un pequeño depósito de 3 m² y estructura preparada para construcción en planta alta, ideal para futuras ampliaciones. Excelente opción para uso residencial o profesional. El inmueble cuenta con: - Cocina comedor - Consultorio 1 - Consultorio 2 - Consultorio 3 - Sala de espera - Baño 1 - Baño 2 Contactanos para más consultas al +54 9 362 522-4146",
+      "caracteristicas": [
+        {
+          "nombre": "Entre calles",
+          "valor": "Moreno y Mendoza"
+        },
+        {
+          "nombre": "Categoría del edificio",
+          "valor": "Buena"
+        },
+        {
+          "nombre": "Estado",
+          "valor": "Bueno"
+        },
+        {
+          "nombre": "Superficie cubierta PB",
+          "valor": "72 m2"
+        },
+        {
+          "nombre": "Superficie total",
+          "valor": "72 m2"
+        }
+      ],
+      "fotos": [
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2153A.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2153B.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2153C.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2153D.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2153E.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2153F.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2153G.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2153H.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2153I.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2153J.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2153K.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2153L.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2153M.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2153N.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2153O.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2153P.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2153Q.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2153R.JPG"
+      ]
+    },
+    {
+      "codigo": "2234",
+      "operacion": "Venta",
+      "tipo": "Terrenos/Fracciones/Loteos",
+      "resumen": "Terrenos, 600 mts2 de Superficie.",
+      "direccion": "PUEBLO MIO (60). RUTA 11 KM 1018",
+      "actualizado": "23/09/2026",
+      "precio": {
+        "moneda": "ARS",
+        "valor": 20400000
+      },
+      "titulo": "Terrenos/Fracciones/Loteos: PUEBLO MIO (60). RUTA 11 KM Nro:1000 - Resistencia, Prov. Chaco - Argentina",
+      "subtipo": "Terrenos",
+      "localidad": "Resistencia",
+      "descripcion": "Barrio Privado Pueblo Mío Características del barrio: . Espacios verdes y diseño que conserva la arboleda existente. . Laguna con más de 1.200 metros de costa. . Posibilidad de realizar deportes náuticos sin motor. . Calles internas con ripio en la avenida principal. . Alumbrado público. Formas de pago: Contado: 15% de descuento sobre el precio de lista. Financiación: Sin entrega inicial. Saldo financiado hasta en 120 cuotas en UVI. Cuota inicial estimada: $328.771 (referencial). Para más información o consultas: WhatsApp 3625224146",
+      "caracteristicas": [
+        {
+          "nombre": "Entre calles",
+          "valor": "MANZANA 5 - PARCELA 60"
+        },
+        {
+          "nombre": "Ubicación en lote",
+          "valor": "Frente"
+        },
+        {
+          "nombre": "Zonificación",
+          "valor": "Residencial"
+        },
+        {
+          "nombre": "Frente del terreno",
+          "valor": "20 m2"
+        },
+        {
+          "nombre": "Largo",
+          "valor": "30 mts"
+        },
+        {
+          "nombre": "Planos aprobados",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Superficie",
+          "valor": "600"
+        }
+      ],
+      "fotos": [
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2234A.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2234B.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2234C.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2234D.JPG"
+      ]
+    },
+    {
+      "codigo": "1551",
+      "operacion": "Venta",
+      "tipo": "Departamentos",
+      "resumen": "Departamento de 1 ambiente de buena categoría. Estado bueno.",
+      "direccion": "Av. Chaco 340, Villa Central Norte",
+      "actualizado": "02/02/2026",
+      "precio": {
+        "moneda": "USD",
+        "valor": 26000
+      },
+      "titulo": "Departamentos: Av. Chaco Nro:300 - Resistencia, Prov. Chaco - Argentina",
+      "subtipo": "1 Ambiente",
+      "localidad": "Resistencia",
+      "descripcion": "Departamento monoambiente en 1º piso, ubicación frente. Posee portero eléctrico, baño completo con termotanque eléctrico y muebles de cocina. El departamento se encuentra alquilado hasta el 31/10/2027.",
+      "caracteristicas": [
+        {
+          "nombre": "Piso",
+          "valor": "1"
+        },
+        {
+          "nombre": "Entre calles",
+          "valor": "OBLIGADO Y AMEGHINO"
+        },
+        {
+          "nombre": "Unidad",
+          "valor": "Departamento"
+        },
+        {
+          "nombre": "Ubicación en planta",
+          "valor": "Frente"
+        },
+        {
+          "nombre": "Estado",
+          "valor": "Bueno"
+        },
+        {
+          "nombre": "Superficie cubierta",
+          "valor": "30.6 m2"
+        },
+        {
+          "nombre": "Superficie total",
+          "valor": "30.6 m2"
+        },
+        {
+          "nombre": "Categoría del edificio",
+          "valor": "Buena"
+        },
+        {
+          "nombre": "Desagües cloacales",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Pavimento",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Agua corriente",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Expensas",
+          "valor": "34000"
+        }
+      ],
+      "fotos": [
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1551A.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1551B.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1551C.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1551D.JPG"
+      ]
+    },
+    {
+      "codigo": "2246",
+      "operacion": "Venta",
+      "tipo": "Locales",
+      "resumen": "Local A la Calle. Unidad en estado Bueno.",
+      "direccion": "MONTEAGUDO 75, Centro",
+      "actualizado": "06/05/2026",
+      "precio": {
+        "moneda": "USD",
+        "valor": 165000
+      },
+      "titulo": "Locales: MONTEAGUDO Nro:100 - Resistencia, Prov. Chaco - Argentina",
+      "subtipo": "A la Calle",
+      "localidad": "Resistencia",
+      "descripcion": "Se trata de un inmueble remodelado, a metros de la Municipalidad de Resistencia, zona Av. 9 de Julio y Av. Italia, con un Frente 8;15 por un fondo de 17,50. En planta baja cuenta con una oficina de 2,85x5,50, salón con salida a la calle y frente de blindex, cocina, baño, patio 8,15x9,30. Planta alta cuatro oficinas y un baño: dimensiones: 1) 2,95x5,50; 2) 2,50x5,50; 3) 2x2,95; 4) 1,95x3. Al precio se le debe agregar el IVA. Contrato por 2 años, con incremento cuatrimestral del índice ICL. Ante cualquier consulta no dude en mandarnos un mensaje al 362 522-4146",
+      "caracteristicas": [
+        {
+          "nombre": "Entre calles",
+          "valor": "Av. 9 de Julio y H. Irigoyen"
+        },
+        {
+          "nombre": "Estado",
+          "valor": "Bueno"
+        },
+        {
+          "nombre": "Desagües cloacales",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Pavimento",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Agua corriente",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Superficie cubierta PB",
+          "valor": "144.56 m2"
+        },
+        {
+          "nombre": "Superficie total",
+          "valor": "95 m2"
+        }
+      ],
+      "fotos": [
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2246A.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2246B.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2246C.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2246D.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2246E.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2246F.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2246G.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2246H.JPG"
+      ]
+    },
+    {
+      "codigo": "2236",
+      "operacion": "Venta",
+      "tipo": "Terrenos/Fracciones/Loteos",
+      "resumen": "Terrenos, 600 mts2 de Superficie.",
+      "direccion": "PUEBLO MIO (62). RUTA 11 KM 1018",
+      "actualizado": "23/09/2026",
+      "precio": {
+        "moneda": "ARS",
+        "valor": 20400000
+      },
+      "titulo": "Terrenos/Fracciones/Loteos: PUEBLO MIO (62). RUTA 11 KM Nro:1000 - Resistencia, Prov. Chaco - Argentina",
+      "subtipo": "Terrenos",
+      "localidad": "Resistencia",
+      "descripcion": "Barrio Privado Pueblo Mío Características del barrio: . Espacios verdes y diseño que conserva la arboleda existente. . Laguna con más de 1.200 metros de costa. . Posibilidad de realizar deportes náuticos sin motor. . Calles internas con ripio en la avenida principal. . Alumbrado público. Formas de pago: Contado: 15% de descuento sobre el precio de lista. Financiación: Sin entrega inicial. Saldo financiado hasta en 120 cuotas en UVI. Cuota inicial estimada: $328.771 (referencial). Para más información o consultas: WhatsApp 3625224146",
+      "caracteristicas": [
+        {
+          "nombre": "Entre calles",
+          "valor": "MANZANA 5 - PARCELA 62"
+        },
+        {
+          "nombre": "Ubicación en lote",
+          "valor": "Frente"
+        },
+        {
+          "nombre": "Zonificación",
+          "valor": "Residencial"
+        },
+        {
+          "nombre": "Frente del terreno",
+          "valor": "20 m2"
+        },
+        {
+          "nombre": "Largo",
+          "valor": "30 mts"
+        },
+        {
+          "nombre": "Planos aprobados",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Superficie",
+          "valor": "600"
+        }
+      ],
+      "fotos": [
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2236A.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2236B.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2236C.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2236D.JPG"
+      ]
+    },
+    {
+      "codigo": "2252",
+      "operacion": "Venta",
+      "tipo": "Casas",
+      "resumen": "Casa de 1 dormitorio en 1 planta. 106.97 m2 cubiertos. Estado: bueno.",
+      "direccion": "SARRATEA 10, Villa Don Enrique",
+      "actualizado": "30/06/2026",
+      "precio": {
+        "moneda": "USD",
+        "valor": 62000
+      },
+      "titulo": "Casas: SARRATEA Nro:100 - Resistencia, Prov. Chaco - Argentina",
+      "subtipo": "Casa",
+      "localidad": "Resistencia",
+      "descripcion": "Casa en Venta - Villa Don Enrique Excelente oportunidad para quienes buscan comodidad y una ubicación tranquila. Sarratea N.º 10 - Villa Don Enrique La propiedad cuenta con: 2 dormitorios Cocina Comedor Baño Pequeño patio Cochera cubierta Una vivienda funcional y acogedora, ideal para familias o para quienes buscan su primera casa. Consultas y visitas: 362 5224146",
+      "caracteristicas": [
+        {
+          "nombre": "Entre calles",
+          "valor": "JAURECHE Y JUAN JOSE PASO"
+        },
+        {
+          "nombre": "Plantas",
+          "valor": "1"
+        },
+        {
+          "nombre": "Estado",
+          "valor": "Bueno"
+        },
+        {
+          "nombre": "Desagües cloacales",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Pavimento",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Agua corriente",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Superficie del terreno",
+          "valor": "135.33 m2"
+        },
+        {
+          "nombre": "Frente del terreno",
+          "valor": "6,78 m2"
+        },
+        {
+          "nombre": "Largo",
+          "valor": "19,96 mts"
+        },
+        {
+          "nombre": "Superficie cubierta",
+          "valor": "106.97 m2"
+        },
+        {
+          "nombre": "Comedor",
+          "valor": "17,20 m2"
+        },
+        {
+          "nombre": "Cantidad de dormitorios",
+          "valor": "1"
+        },
+        {
+          "nombre": "Dormitorio principal",
+          "valor": "20,69 m2"
+        },
+        {
+          "nombre": "Dormitorio",
+          "valor": "6,15 m2"
+        },
+        {
+          "nombre": "Cantidad de baños",
+          "valor": "1"
+        },
+        {
+          "nombre": "Cocina",
+          "valor": "6,22 m2"
+        },
+        {
+          "nombre": "Mejoras",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Garage",
+          "valor": "Si"
+        }
+      ],
+      "fotos": [
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2252A.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2252B.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2252C.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2252D.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2252E.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2252F.JPG"
+      ]
+    },
+    {
+      "codigo": "888",
+      "operacion": "Venta",
+      "tipo": "Departamentos",
+      "resumen": "Departamento de 2 ambientes de standard categoría. Estado bueno.",
+      "direccion": "SAN LORENZO 1330, Villa Centenario",
+      "actualizado": "19/10/2026",
+      "precio": {
+        "moneda": "USD",
+        "valor": 40000
+      },
+      "titulo": "Departamentos: SAN LORENZO Nro:1300 - Resistencia, Prov. Chaco - Argentina",
+      "subtipo": "2 Ambientes",
+      "localidad": "Resistencia",
+      "descripcion": "Departamento en Primer Piso con Balcón al Frente Ubicado en San Lorenzo 1330, departamento en primer piso que combina funcionalidad y una excelente relación calidad-precio. Es una opción ideal para inversores, quienes buscan su primer hogar, o aquellos que desean ampliar su cartera de propiedades. Este departamento de categoría standard se encuentra en un estado bueno de conservación y ofrece un ambiente práctico. Situado en un edificio de tres pisos en un entorno tranquilo.. Descripción de la Propiedad: . Cocina- Comedor: Funcional, con bajo mesada, alacena y ventilador de techo. . Baño: Completo, equipado con termotanque. . Balcón: Al frente. Se encuentra alquilado hasta el 31/05/2026 Contáctanos al 362 5224-146",
+      "caracteristicas": [
+        {
+          "nombre": "Piso",
+          "valor": "1"
+        },
+        {
+          "nombre": "Entre calles",
+          "valor": "Toledo y Seitor"
+        },
+        {
+          "nombre": "Unidad",
+          "valor": "Departamento"
+        },
+        {
+          "nombre": "Ubicación en planta",
+          "valor": "Frente"
+        },
+        {
+          "nombre": "Estado",
+          "valor": "Bueno"
+        },
+        {
+          "nombre": "Agua caliente",
+          "valor": "Termotanque individual"
+        },
+        {
+          "nombre": "Superficie cubierta",
+          "valor": "32.69 m2"
+        },
+        {
+          "nombre": "Superficie total",
+          "valor": "32.69 m2"
+        },
+        {
+          "nombre": "Categoría del edificio",
+          "valor": "Standard"
+        },
+        {
+          "nombre": "Cantidad de pisos",
+          "valor": "3"
+        },
+        {
+          "nombre": "Desagües cloacales",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Pavimento",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Agua corriente",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Expensas",
+          "valor": "117000"
+        },
+        {
+          "nombre": "Dormitorio principal",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Cantidad de baños",
+          "valor": "1"
+        },
+        {
+          "nombre": "Mes",
+          "valor": "Septiembre"
+        }
+      ],
+      "fotos": [
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM0888A.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM0888B.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM0888C.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM0888D.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM0888E.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM0888F.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM0888G.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM0888H.JPG"
+      ]
+    },
+    {
+      "codigo": "2230",
+      "operacion": "Venta",
+      "tipo": "Terrenos/Fracciones/Loteos",
+      "resumen": "Terrenos, 600 mts2 de Superficie.",
+      "direccion": "PUEBLO MIO (50). RUTA 11 KM 1018",
+      "actualizado": "23/09/2026",
+      "precio": {
+        "moneda": "ARS",
+        "valor": 20400000
+      },
+      "titulo": "Terrenos/Fracciones/Loteos: PUEBLO MIO (50). RUTA 11 KM Nro:1000 - Resistencia, Prov. Chaco - Argentina",
+      "subtipo": "Terrenos",
+      "localidad": "Resistencia",
+      "descripcion": "Barrio Privado Pueblo Mío Características del barrio: . Espacios verdes y diseño que conserva la arboleda existente. . Laguna con más de 1.200 metros de costa. . Posibilidad de realizar deportes náuticos sin motor. . Calles internas con ripio en la avenida principal. . Alumbrado público. Formas de pago: Contado: 15% de descuento sobre el precio de lista. Financiación: Sin entrega inicial. Saldo financiado hasta en 120 cuotas en UVI. Cuota inicial estimada: $328.771 (referencial). Para más información o consultas: WhatsApp 3625224146",
+      "caracteristicas": [
+        {
+          "nombre": "Entre calles",
+          "valor": "MANZANA 5 - PARCELA 50"
+        },
+        {
+          "nombre": "Ubicación en lote",
+          "valor": "Frente"
+        },
+        {
+          "nombre": "Zonificación",
+          "valor": "Residencial"
+        },
+        {
+          "nombre": "Frente del terreno",
+          "valor": "20 m2"
+        },
+        {
+          "nombre": "Largo",
+          "valor": "30 mts"
+        },
+        {
+          "nombre": "Planos aprobados",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Superficie",
+          "valor": "600"
+        }
+      ],
+      "fotos": [
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2230A.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2230B.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2230C.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2230D.JPG"
+      ]
+    },
+    {
+      "codigo": "1854",
+      "operacion": "Venta",
+      "tipo": "Casas",
+      "resumen": "Casa de 2 dormitorios en 1 planta. 70 m2 cubiertos. Estado: regular.",
+      "direccion": "Av. Edison 1865",
+      "actualizado": "05/05/2026",
+      "precio": {
+        "moneda": "USD",
+        "valor": 65000
+      },
+      "titulo": "Casas: Av. Edison Nro:1800 - Resistencia, Prov. Chaco - Argentina",
+      "subtipo": "Casa",
+      "localidad": "Resistencia",
+      "descripcion": "Se trata de una casa construida en un terreno de 10 metros de frente por 35 de fondo, con 70 metros cuadrados cubiertos y 73 metros cuadrados semicubiertos, la casa cuenta con 2 dormitorios, cocina comedor, living, entrada cubierta para dos autos en linea, pequeño deposito y patio. Se trata de un PH.",
+      "caracteristicas": [
+        {
+          "nombre": "Plantas",
+          "valor": "1"
+        },
+        {
+          "nombre": "Antigüedad",
+          "valor": "30 años"
+        },
+        {
+          "nombre": "Estado",
+          "valor": "Regular"
+        },
+        {
+          "nombre": "Agua caliente",
+          "valor": "Termotanque"
+        },
+        {
+          "nombre": "Agua corriente",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Superficie del terreno",
+          "valor": "350 m2"
+        },
+        {
+          "nombre": "Frente del terreno",
+          "valor": "10 m2"
+        },
+        {
+          "nombre": "Largo",
+          "valor": "35 mts"
+        },
+        {
+          "nombre": "Superficie cubierta",
+          "valor": "70 m2"
+        },
+        {
+          "nombre": "Cantidad de dormitorios",
+          "valor": "2"
+        },
+        {
+          "nombre": "Dormitorio",
+          "valor": "3.1x3.3"
+        },
+        {
+          "nombre": "Cantidad de baños",
+          "valor": "1"
+        },
+        {
+          "nombre": "Comedor diario",
+          "valor": "2.1x3.3"
+        },
+        {
+          "nombre": "Cocina",
+          "valor": "3.3x3"
+        },
+        {
+          "nombre": "Garage",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Cantidad coches",
+          "valor": "2"
+        }
+      ],
+      "fotos": [
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1854A.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1854B.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1854C.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1854D.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1854E.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1854F.JPG"
+      ]
+    },
+    {
+      "codigo": "2263",
+      "operacion": "Venta",
+      "tipo": "Departamentos",
+      "resumen": "Departamento de 2 ambientes de buena categoría. Estado bueno, con cochera para un auto.",
+      "direccion": "NECOCHEA 1250, Villa Río Araza",
+      "actualizado": "19/10/2026",
+      "precio": {
+        "moneda": "USD",
+        "valor": 42000
+      },
+      "titulo": "Departamentos: NECOCHEA Nro:1200 - Resistencia, Prov. Chaco - Argentina",
+      "subtipo": "2 Ambientes",
+      "localidad": "Resistencia",
+      "descripcion": "DEPARTAMENTO EN VENTA - 1 DORMITORIO Departamento de un dormitorio, cocina comedor, baño, balcón al frente y cochera. Actualmente alquilado hasta el 11/2026. Alquiler actual $383.783. actualización cuatrimestral por ICL Una excelente opción tanto para vivienda propia como para inversión. Consultas y visitas: 362 5224146 Venta compartida con inmobiliaria R.S.I.",
+      "caracteristicas": [
+        {
+          "nombre": "Piso",
+          "valor": "2"
+        },
+        {
+          "nombre": "Entre calles",
+          "valor": "ROLDAN Y ARAZA"
+        },
+        {
+          "nombre": "Unidad",
+          "valor": "Departamento"
+        },
+        {
+          "nombre": "Cocheras",
+          "valor": "1"
+        },
+        {
+          "nombre": "Cochera fija",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Luminosidad",
+          "valor": "Muy luminoso"
+        },
+        {
+          "nombre": "Ubicación en planta",
+          "valor": "Frente"
+        },
+        {
+          "nombre": "Estado",
+          "valor": "Bueno"
+        },
+        {
+          "nombre": "Agua caliente",
+          "valor": "Termotanque individual"
+        },
+        {
+          "nombre": "Superficie cubierta",
+          "valor": "31 m2"
+        },
+        {
+          "nombre": "Superficie total",
+          "valor": "33 m2"
+        },
+        {
+          "nombre": "Categoría del edificio",
+          "valor": "Buena"
+        },
+        {
+          "nombre": "Desagües cloacales",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Pavimento",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Agua corriente",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Expensas",
+          "valor": "97000"
+        },
+        {
+          "nombre": "Mes",
+          "valor": "Julio"
+        }
+      ],
+      "fotos": [
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2263A.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2263B.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2263C.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2263D.JPG"
+      ]
+    },
+    {
+      "codigo": "2140",
+      "operacion": "Alquiler",
+      "tipo": "Locales",
+      "resumen": "Local A la Calle de Buena categoría. Unidad en estado Bueno.",
+      "direccion": "LARRETA 780, San Miguel",
+      "actualizado": "16/09/2026",
+      "precio": {
+        "moneda": "ARS",
+        "valor": 300000
+      },
+      "titulo": "Locales: LARRETA Nro:700 - Resistencia, Prov. Chaco - Argentina",
+      "subtipo": "A la Calle",
+      "localidad": "Resistencia",
+      "descripcion": "LQUILER - LOCAL COMERCIAL Larreta N° 780, a metros de Av. Hernandarias. Ideal para tu emprendimiento Vidriera a la calle Baño individual Kitchenette Contrato por 24 meses incremento cuatrimestral según índice ICL WhatsApp: 362 5224146",
+      "caracteristicas": [
+        {
+          "nombre": "Entre calles",
+          "valor": "AV. HERNANDARIAS Y CANGALLO"
+        },
+        {
+          "nombre": "Categoría del edificio",
+          "valor": "Buena"
+        },
+        {
+          "nombre": "Estado",
+          "valor": "Bueno"
+        },
+        {
+          "nombre": "Desagües cloacales",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Pavimento",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Agua corriente",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Superficie cubierta PB",
+          "valor": "23.8 m2"
+        },
+        {
+          "nombre": "Superficie total",
+          "valor": "23.8 m2"
+        },
+        {
+          "nombre": "Ancho",
+          "valor": "3.40 mts"
+        },
+        {
+          "nombre": "Fondo libre",
+          "valor": "7.00 m2"
+        }
+      ],
+      "fotos": [
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2140A.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2140B.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2140C.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2140D.JPG"
+      ]
+    },
+    {
+      "codigo": "1549",
+      "operacion": "Alquiler",
+      "tipo": "Oficinas",
+      "resumen": "Oficina de Planta Dividida de categoría standard. Unidad en estado Bueno.",
+      "direccion": "REMEDIOS DE ESCALADAS 48, Villa Altabe",
+      "actualizado": "28/10/2026",
+      "precio": {
+        "moneda": "ARS",
+        "valor": 300000
+      },
+      "titulo": "Oficinas: REMEDIOS DE ESCALADAS Nro:100 - Resistencia, Prov. Chaco - Argentina",
+      "subtipo": "Planta Dividida",
+      "localidad": "Resistencia",
+      "descripcion": "OFICINA EN ALQUILER - REMEDIOS DE ESCALADA 48 (Planta Alta) Excelente ubicación céntrica, con orientación al frente. Espacio ideal para profesionales o pequeñas empresas. Baños compartidos. Contrato por 24 meses. Incremento cuatrimestral según índice ICL. Consultas por WhatsApp: 362 524146 ¡Contactanos para más info o para coordinar una visita!",
+      "caracteristicas": [
+        {
+          "nombre": "Entre calles",
+          "valor": "MARCELO T. DE ALVEAR Y AV. 25 DE MAYO"
+        },
+        {
+          "nombre": "Piso",
+          "valor": "1"
+        },
+        {
+          "nombre": "Ubicación en planta",
+          "valor": "Frente"
+        },
+        {
+          "nombre": "Estado",
+          "valor": "Bueno"
+        },
+        {
+          "nombre": "Luminosidad",
+          "valor": "Luminoso"
+        },
+        {
+          "nombre": "Superficie cubierta",
+          "valor": "25 m2"
+        },
+        {
+          "nombre": "Superficie total",
+          "valor": "25 m2"
+        },
+        {
+          "nombre": "Categoría del edificio",
+          "valor": "Standard"
+        },
+        {
+          "nombre": "Desagües cloacales",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Pavimento",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Agua corriente",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Expensas",
+          "valor": "16000"
+        }
+      ],
+      "fotos": [
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1549A.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1549B.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1549C.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1549D.JPG"
+      ]
+    },
+    {
+      "codigo": "682",
+      "operacion": "Alquiler",
+      "tipo": "Departamentos",
+      "resumen": "Departamento de 2 ambientes de standard categoría. Estado regular.",
+      "direccion": "SAN JUAN 255, Paykin",
+      "actualizado": "12/03/2026",
+      "precio": {
+        "moneda": "ARS",
+        "valor": 300000
+      },
+      "titulo": "Departamentos: SAN JUAN Nro:200 - Resistencia, Prov. Chaco - Argentina",
+      "subtipo": "2 Ambientes",
+      "localidad": "Resistencia",
+      "descripcion": "Tipo de inmueble: Departamento. Operación: Alquiler. Dirección: San Juan 255. Zona: Macrocentro. Ciudad: Resistencia. Provincia: Chaco. Superficie total: 36 m² Superficie cubierta (si corresponde): 28 m² Dormitorios: 1. Precio: $ 300.000 Condiciones principales: Plazo del contrato: 24 meses. Periodicidad del ajuste: Cuatrimestral. Índice de ajuste: ICL. Breve descripción funcional del inmueble: Departamento interno, en planta baja se encuentra la cocina-comedor, el baño y pequeño patio con pileta de lavar, el dormitorio se encuentra en un entrepiso de madera. Tipo de inmueble: Departamento. Operación: Alquiler. Código interno: JRM00000682 UBICACIÓN Dirección: San Juan Número: 255 Piso: Planta baja. Departamento: Entre calles: Pueyrredón. Zona: Macrocentro. Barrio: Paykin. Ciudad: Resistencia. Provincia: Chaco. Ubicación en planta: Interno. SUPERFICIES Superficie cubierta: 36 m² Superficie total: 36 m² DISTRIBUCIÓN Cocina/comedor: Sí Lavadero: Sí. Dormitorios: 1. Baños: 1. Balcón: No. Patio: Sí. Terraza: No. Cochera: No. Otros ambientes: ESTADO DEL INMUEBLE Regular. PRECIO Y GASTOS Precio de venta o alquiler: $ 300.000 Expensas: No informado. Se abona el 100% de luz, un porcentaje del agua y un porcentaje de tasas y servicios.- CONDICIONES DE CONTRATO (SI ES ALQUILER) Plazo: 24 meses. Periodicidad del ajuste: Cuatrimestral. Índice de ajuste: ICL. Destino permitido: Vivienda. SERVICIOS Agua corriente: Sí. Cloacas: Sí. Gas natural: No. Electricidad: Sí. Pavimento: Sí. Otros servicios: CONTACTO WhatsApp de contacto: 3625224146 OBSERVACIONES Acceso compartido.",
+      "caracteristicas": [
+        {
+          "nombre": "Piso",
+          "valor": "P.B."
+        },
+        {
+          "nombre": "Entre calles",
+          "valor": "Pueyrredon"
+        },
+        {
+          "nombre": "Unidad",
+          "valor": "Departamento"
+        },
+        {
+          "nombre": "Luminosidad",
+          "valor": "Luminoso"
+        },
+        {
+          "nombre": "Ubicación en planta",
+          "valor": "Interno"
+        },
+        {
+          "nombre": "Estado",
+          "valor": "Regular"
+        },
+        {
+          "nombre": "Superficie cubierta",
+          "valor": "36 m2"
+        },
+        {
+          "nombre": "Superficie total",
+          "valor": "28 m2"
+        },
+        {
+          "nombre": "Categoría del edificio",
+          "valor": "Standard"
+        },
+        {
+          "nombre": "Desagües cloacales",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Pavimento",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Agua corriente",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Cantidad de baños",
+          "valor": "1"
+        }
+      ],
+      "fotos": [
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM0682A.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM0682B.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM0682C.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM0682D.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM0682E.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM0682F.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM0682G.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM0682H.JPG"
+      ]
+    },
+    {
+      "codigo": "1479",
+      "operacion": "Alquiler",
+      "tipo": "Casas",
+      "resumen": "Casa de 3 dormitorios en 1 planta. 57.17 m2 cubiertos. Estado: regular.",
+      "direccion": "CARACAS 2348",
+      "actualizado": "30/07/2026",
+      "precio": {
+        "moneda": "ARS",
+        "valor": 500000
+      },
+      "titulo": "Casas: CARACAS Nro:2300 - Resistencia, Prov. Chaco - Argentina",
+      "subtipo": "Casa",
+      "localidad": "Resistencia",
+      "descripcion": "CASA EN ALQUILER - BARRIO VIAL Amplia y cómoda vivienda ubicada en Barrio Vial, ideal para familias que buscan confort y espacios funcionales. El inmueble cuenta con: 3 dormitorios. Cocina-comedor. Baño completo. Lavadero. Patio. Cochera cubierta con capacidad para 2 automóviles. Condiciones de alquiler: Contrato por 24 meses. Incremento cuatrimestral según índice ICL. Una excelente opción para quienes buscan una casa con amplios ambientes y todas las comodidades necesarias para la vida diaria. Consultas y visitas: WhatsApp: 362 5224146",
+      "caracteristicas": [
+        {
+          "nombre": "Entre calles",
+          "valor": "ISAIAS ESQUINA BARUC"
+        },
+        {
+          "nombre": "Plantas",
+          "valor": "1"
+        },
+        {
+          "nombre": "Estado",
+          "valor": "Regular"
+        },
+        {
+          "nombre": "Desagües cloacales",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Pavimento",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Agua corriente",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Superficie del terreno",
+          "valor": "160 m2"
+        },
+        {
+          "nombre": "Frente del terreno",
+          "valor": "10 m2"
+        },
+        {
+          "nombre": "Largo",
+          "valor": "16 mts"
+        },
+        {
+          "nombre": "Superficie cubierta",
+          "valor": "57.17 m2"
+        },
+        {
+          "nombre": "Cantidad de dormitorios",
+          "valor": "3"
+        },
+        {
+          "nombre": "Cantidad de baños",
+          "valor": "1"
+        },
+        {
+          "nombre": "Garage",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Dormitorio principal",
+          "valor": "9,70"
+        },
+        {
+          "nombre": "Dormitorio",
+          "valor": "7,57"
+        },
+        {
+          "nombre": "Cocina",
+          "valor": "25,04"
+        }
+      ],
+      "fotos": [
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1479A.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1479B.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1479C.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1479D.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1479E.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1479F.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1479G.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1479H.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1479I.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1479J.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1479K.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1479L.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1479M.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1479N.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1479O.JPG"
+      ]
+    },
+    {
+      "codigo": "2197",
+      "operacion": "Alquiler",
+      "tipo": "Depósitos/Industrias",
+      "resumen": "Galpones, Habilitación Actual: ..",
+      "direccion": "16 23.5",
+      "actualizado": "14/02/2026",
+      "precio": {
+        "moneda": "ARS",
+        "valor": 1700000
+      },
+      "titulo": "Depósitos/Industrias: 16 Nro:100 - Puerto Tirol, Prov. Chaco - Argentina",
+      "subtipo": "Galpones",
+      "localidad": "Puerto Tirol",
+      "descripcion": "Tipo de inmueble: Galpón. Operación: Alquiler. Dirección: Ruta 16. Km 23,5. Ciudad: Puerto Tirol. Provincia: Chaco. Superficie total: 187 m² Superficie cubierta: 384 m². Precio: $ 1.700.000. Condiciones principales: Plazo del contrato: 24 meses. Periodicidad del ajuste: Cuatrimestral. Índice de ajuste: ICL. Salón principal, 8 oficinas, hall de ingreso, kitchenette, 2 baños, FICHA TÉCNICA Tipo de inmueble: Galpón. Operación: Alquiler. Código interno: JRM00 UBICACIÓN Dirección: Ruta 16.Km 23,5. Piso: Planta baja. Ciudad: Puerto Tirol. Provincia: Chaco. Ubicación en planta: Frente. SUPERFICIES Superficie cubierta: 187 m² Superficie total: 384 m². Accesos: Doble portón de 4,20 × 4,50 m, apto camiones Frente: 60 mts. Fondo: 80 mts. DISTRIBUCIÓN Salón principal: Sí Kitchenette: Sí Oficinas: 8. Baños: 2. ESTADO DEL INMUEBLE: Bueno. PRECIO Y GASTOS Precio de alquiler: $1.700.000. CONDICIONES DE CONTRATO Plazo: 24 meses. Periodicidad del ajuste: Cuatrimestral. Índice de ajuste: ICL. Destino permitido: Comercial. SERVICIOS Agua corriente: Sí. Gas natural: No. Electricidad: Sí. Pavimento: Sí. Otros servicios: CONTACTO WhatsApp de contacto: 3625224146 OBSERVACIONES. Planta baja.",
+      "caracteristicas": [
+        {
+          "nombre": "Habilitación actual",
+          "valor": "."
+        },
+        {
+          "nombre": "Agua corriente",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Desagües cloacales",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Superficie cubierta",
+          "valor": "384 m2"
+        },
+        {
+          "nombre": "Superficie del terreno",
+          "valor": "480 m2"
+        },
+        {
+          "nombre": "AlturaPortones",
+          "valor": "4,50"
+        },
+        {
+          "nombre": "SuperficieOficinas",
+          "valor": "197"
+        },
+        {
+          "nombre": "Frente del terreno",
+          "valor": "60 m2"
+        },
+        {
+          "nombre": "Largo",
+          "valor": "80 mts"
+        }
+      ],
+      "fotos": [
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2197A.JPG"
+      ]
+    },
+    {
+      "codigo": "1995",
+      "operacion": "Alquiler",
+      "tipo": "Locales",
+      "resumen": "Local A la Calle de Standard categoría. Unidad en estado Regular.",
+      "direccion": "Av. 25 de Mayo 4550",
+      "actualizado": "03/06/2026",
+      "precio": {
+        "moneda": "ARS",
+        "valor": 400000
+      },
+      "titulo": "Locales: Av. 25 de Mayo Nro:4500 - Fontana, Prov. Chaco - Argentina",
+      "subtipo": "A la Calle",
+      "localidad": "Fontana",
+      "descripcion": "LOCAL COMERCIAL EN ALQUILER - FONTANA Excelente oportunidad comercial sobre Av. 25 de Mayo N.º 4450, en una importante zona de alto movimiento y gran visibilidad. El local cuenta con: Salón comercial Frente vidriado Rejas de seguridad Baño Ideal para diversos rubros comerciales, oficinas o emprendimientos que busquen una ubicación estratégica. Contrato por 24 meses. Incremento cuatrimestral según índice ICL. Consultas: 362 5224146",
+      "caracteristicas": [
+        {
+          "nombre": "Categoría del edificio",
+          "valor": "Standard"
+        },
+        {
+          "nombre": "Estado",
+          "valor": "Regular"
+        },
+        {
+          "nombre": "Pavimento",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Agua corriente",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Superficie cubierta PB",
+          "valor": "21.52 m2"
+        },
+        {
+          "nombre": "Superficie total",
+          "valor": "21.52 m2"
+        },
+        {
+          "nombre": "Ancho",
+          "valor": "3,73 mts"
+        },
+        {
+          "nombre": "Fondo libre",
+          "valor": "5,77 m2"
+        }
+      ],
+      "fotos": [
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1995A.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1995B.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1995C.JPG"
+      ]
+    },
+    {
+      "codigo": "2248",
+      "operacion": "Alquiler",
+      "tipo": "Oficinas",
+      "resumen": "Oficina de Planta Dividida de categoría muy buena. Unidad en estado Muy bueno.",
+      "direccion": "AV. LAVALLE 159, Macrocentro",
+      "actualizado": "05/06/2026",
+      "precio": {
+        "moneda": "ARS",
+        "valor": 350000
+      },
+      "titulo": "Oficinas: AV. LAVALLE Nro:100 - Resistencia, Prov. Chaco - Argentina",
+      "subtipo": "Planta Dividida",
+      "localidad": "Resistencia",
+      "descripcion": "Oficina en alquiler - Av. Lavalle 159 Ubicada en planta alta, con orientación al contrafrente. Cuenta con baño privado, portero eléctrico y frente vidriado, lo que aporta muy buena iluminación natural y excelente presencia profesional. Ideal para actividades administrativas o profesionales. Gastos comunes aproximados 35.000.- Contrato por 24 meses, con incremento trimestral según índice ICL. Consultas por WhatsApp: 362 5224146.-",
+      "caracteristicas": [
+        {
+          "nombre": "Entre calles",
+          "valor": "PUEYRREDON Y MITRE"
+        },
+        {
+          "nombre": "Piso",
+          "valor": "1"
+        },
+        {
+          "nombre": "Ubicación en planta",
+          "valor": "Contrafte"
+        },
+        {
+          "nombre": "Estado",
+          "valor": "Muy bueno"
+        },
+        {
+          "nombre": "Luminosidad",
+          "valor": "Luminoso"
+        },
+        {
+          "nombre": "Superficie cubierta",
+          "valor": "27 m2"
+        },
+        {
+          "nombre": "Superficie total",
+          "valor": "27 m2"
+        },
+        {
+          "nombre": "Categoría del edificio",
+          "valor": "Muy Buena"
+        },
+        {
+          "nombre": "Desagües cloacales",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Pavimento",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Agua corriente",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Expensas",
+          "valor": "35000"
+        },
+        {
+          "nombre": "Mes",
+          "valor": "ABRIL"
+        }
+      ],
+      "fotos": [
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2248A.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2248B.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2248C.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2248D.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2248E.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2248F.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2248G.JPG"
+      ]
+    },
+    {
+      "codigo": "666",
+      "operacion": "Alquiler",
+      "tipo": "Departamentos",
+      "resumen": "Departamento de 1 ambiente de buena categoría. Estado bueno.",
+      "direccion": "DUVIVIER 280, Villa Central Norte",
+      "actualizado": "04/11/2026",
+      "precio": {
+        "moneda": "ARS",
+        "valor": 350000
+      },
+      "titulo": "Departamentos: DUVIVIER Nro:200 - Resistencia, Prov. Chaco - Argentina",
+      "subtipo": "1 Ambiente",
+      "localidad": "Resistencia",
+      "descripcion": "DEPARTAMENTO MONOAMBIENTE EN ALQUILER - DUVIVIER 280. Ubicado en 1° piso, orientación frente. Cuenta con: Ambiente unico. Cocina-comedor Baño. Lavadero. Balcon. Contrato por 24 meses con incremento cuatrimestral según el índice ICL. WhatsApp al 3625224146.",
+      "caracteristicas": [
+        {
+          "nombre": "Piso",
+          "valor": "1"
+        },
+        {
+          "nombre": "Entre calles",
+          "valor": "ARTURO ILLIA Y OBLIGADO"
+        },
+        {
+          "nombre": "Unidad",
+          "valor": "Departamento"
+        },
+        {
+          "nombre": "Luminosidad",
+          "valor": "Luminoso"
+        },
+        {
+          "nombre": "Ubicación en planta",
+          "valor": "Contrafte"
+        },
+        {
+          "nombre": "Estado",
+          "valor": "Bueno"
+        },
+        {
+          "nombre": "Superficie cubierta",
+          "valor": "27 m2"
+        },
+        {
+          "nombre": "Superficie total",
+          "valor": "30 m2"
+        },
+        {
+          "nombre": "Categoría del edificio",
+          "valor": "Buena"
+        },
+        {
+          "nombre": "Desagües cloacales",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Pavimento",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Agua corriente",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Expensas",
+          "valor": "80000"
+        },
+        {
+          "nombre": "Mes",
+          "valor": "Octubre"
+        },
+        {
+          "nombre": "Cantidad de baños",
+          "valor": "1"
+        }
+      ],
+      "fotos": [
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM0666A.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM0666B.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM0666C.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM0666D.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM0666E.JPG"
+      ]
+    },
+    {
+      "codigo": "2291",
+      "operacion": "Alquiler",
+      "tipo": "Casas",
+      "resumen": "Casa de 1 dormitorio en 1 planta. 106.97 m2 cubiertos. Estado: bueno.",
+      "direccion": "SARRATEA 10, Villa Don Enrique",
+      "actualizado": "10/11/2026",
+      "precio": {
+        "moneda": "ARS",
+        "valor": 550000
+      },
+      "titulo": "Casas: SARRATEA Nro:100 - Resistencia, Prov. Chaco - Argentina",
+      "subtipo": "Casa",
+      "localidad": "Resistencia",
+      "descripcion": "Casa en Alquiler - Villa Don Enrique Excelente oportunidad para quienes buscan comodidad y una ubicación tranquila. Sarratea N.º 10 - Villa Don Enrique La propiedad cuenta con: 2 dormitorios Cocina Comedor Baño Pequeño patio Cochera cubierta Una vivienda funcional y acogedora, ideal para familias o para quienes buscan su primera casa. Consultas y visitas: 362 5224146",
+      "caracteristicas": [
+        {
+          "nombre": "Entre calles",
+          "valor": "JAURECHE Y JUAN JOSE PASO"
+        },
+        {
+          "nombre": "Plantas",
+          "valor": "1"
+        },
+        {
+          "nombre": "Estado",
+          "valor": "Bueno"
+        },
+        {
+          "nombre": "Mejoras",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Desagües cloacales",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Pavimento",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Agua corriente",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Superficie del terreno",
+          "valor": "135.33 m2"
+        },
+        {
+          "nombre": "Frente del terreno",
+          "valor": "6,78 m2"
+        },
+        {
+          "nombre": "Largo",
+          "valor": "19,96 mts"
+        },
+        {
+          "nombre": "Superficie cubierta",
+          "valor": "106.97 m2"
+        },
+        {
+          "nombre": "Comedor",
+          "valor": "17,20 m2"
+        },
+        {
+          "nombre": "Cantidad de dormitorios",
+          "valor": "1"
+        },
+        {
+          "nombre": "Dormitorio principal",
+          "valor": "20,69 m2"
+        },
+        {
+          "nombre": "Dormitorio",
+          "valor": "6,15 m2"
+        },
+        {
+          "nombre": "Cantidad de baños",
+          "valor": "1"
+        },
+        {
+          "nombre": "Cocina",
+          "valor": "6,22 m2"
+        },
+        {
+          "nombre": "Garage",
+          "valor": "Si"
+        }
+      ],
+      "fotos": [
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2291A.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2291B.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2291C.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2291D.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2291E.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM2291F.JPG"
+      ]
+    },
+    {
+      "codigo": "1861",
+      "operacion": "Alquiler",
+      "tipo": "Depósitos/Industrias",
+      "resumen": "Depósitos, Habilitación Actual: ..",
+      "direccion": "JULIO A. ROCA 876, Centro",
+      "actualizado": "02/11/2026",
+      "precio": {
+        "moneda": "ARS",
+        "valor": 2100000
+      },
+      "titulo": "Depósitos/Industrias: JULIO A. ROCA Nro:800 - Resistencia, Prov. Chaco - Argentina",
+      "subtipo": "Depósitos",
+      "localidad": "Resistencia",
+      "descripcion": "Galpón de 10x33, todo cubierto, dentro del galpón cuenta con Oficinas, entre piso con 3 oficinas, vestuario y 1 baños. Ubicado a pocos metros de la Av. Hernandarias. El precio del mismo es mas IVA.-",
+      "caracteristicas": [
+        {
+          "nombre": "Entre calles",
+          "valor": "AV. HERNANDARIAS Y SAN ROQUE"
+        },
+        {
+          "nombre": "Habilitación actual",
+          "valor": "."
+        },
+        {
+          "nombre": "Agua corriente",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Pisos de hormigón",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Desagües cloacales",
+          "valor": "Si"
+        },
+        {
+          "nombre": "Superficie cubierta",
+          "valor": "330 m2"
+        },
+        {
+          "nombre": "Superficie del terreno",
+          "valor": "330 m2"
+        }
+      ],
+      "fotos": [
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1861A.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1861B.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1861C.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1861D.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1861E.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1861F.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1861G.JPG",
+        "https://www.topinmobiliario.com/portal/fot/JRM/JRM1861H.JPG"
+      ]
+    }
+  ]
+}

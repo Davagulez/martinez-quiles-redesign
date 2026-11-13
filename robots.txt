@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /direccion-de-arte.html
+Disallow: /materiales/
+Disallow: /scripts/
+
+Sitemap: https://inmobiliariamartinezquiles.com.ar/sitemap.xml
