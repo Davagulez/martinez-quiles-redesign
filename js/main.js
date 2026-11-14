@@ -246,7 +246,8 @@
     gsap.set(hexa, { strokeDasharray: L, strokeDashoffset: L });
     gsap.timeline({ scrollTrigger: st })
       .to(barras, { scaleY: 1, duration: 0.7, stagger: 0.11, ease: 'power3.out' })
-      .to(hexa, { strokeDashoffset: 0, duration: 0.9, ease: 'power2.inOut' }, 0.25);
+      .to(hexa, { strokeDashoffset: 0, duration: 0.9, ease: 'power2.inOut' }, 0.25)
+      .set(hexa, { strokeDasharray: 'none' });
   }
 
   function efectosDeScroll() {
@@ -327,6 +328,7 @@
       .set(hexa, { strokeDasharray: L, strokeDashoffset: L })
       .to(barras, { scaleY: 1, duration: 0.7, stagger: 0.11, ease: 'power3.out' }, 0.15)
       .to(hexa, { strokeDashoffset: 0, duration: 0.85, ease: 'power2.inOut' }, 0.45)
+      .set(hexa, { strokeDasharray: 'none' })
       .addLabel('abre', 1.75)
       .to(iso, { scale: 1.5, autoAlpha: 0, duration: 0.5, ease: 'power2.in' }, 'abre')
       .to(hueco, { s: 1, duration: 1.15, ease: M.easeIO, onUpdate: pintar }, 'abre+=0.05')

@@ -256,6 +256,30 @@ button{cursor:pointer}
 .cifra small{color:var(--muted-on-dark);font-size:12px}
 @media (min-width:800px){.cifras{grid-template-columns:repeat(3,1fr)}.cifra{padding:34px 28px}.cifra:first-child{padding-left:0}}
 .firma__pie{display:grid;gap:28px;margin-top:clamp(36px,5vw,64px)}
+/* Opiniones de Google */
+.opiniones{background:var(--stone)}
+.opiniones__cab{display:grid;gap:28px;margin-bottom:clamp(32px,5vw,56px)}
+.nota{display:flex;align-items:center;gap:18px}
+.nota__num{font:760 clamp(64px,8vw,104px)/.9 var(--font-display);font-stretch:112%;letter-spacing:-.03em}
+.nota__det{display:grid;gap:6px;justify-items:start;font-weight:500}
+.nota__det small{font-size:12px;font-weight:400;color:var(--muted)}
+.estrellas{display:inline-flex;gap:4px;padding:8px 10px;background:var(--ink);clip-path:polygon(0 0,calc(100% - 8px) 0,100% 8px,100% 100%,0 100%)}
+.estrellas i{width:16px;height:16px;background:var(--yellow);clip-path:polygon(50% 0,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%)}
+.estrellas i.off{background:#6B6668}
+.opiniones__lista{display:grid;gap:14px}
+.opinion{display:grid;gap:18px;align-content:start;margin:0;padding:26px 24px;background:var(--surface);clip-path:var(--corte)}
+.opinion .estrellas{justify-self:start}
+.opinion blockquote{margin:0;font-size:15px;line-height:1.65}
+.opinion figcaption{display:grid;gap:2px;padding-top:14px;border-top:1px solid var(--stone)}
+.opinion figcaption span{font-size:12px;color:var(--muted)}
+.opiniones__pie{display:flex;flex-wrap:wrap;align-items:center;gap:18px 28px;margin-top:clamp(28px,4vw,44px)}
+@media (min-width:900px){
+  .opiniones__cab{grid-template-columns:1fr auto;align-items:end}
+  .opiniones__lista{grid-template-columns:1.35fr 1fr 1fr;align-items:start}
+  .opinion:nth-child(2){margin-top:40px}
+}
+.mapa--ficha{aspect-ratio:16/10}
+.mapa__nota{margin-top:10px;font-size:13px;color:var(--muted)}
 .credenciales{display:grid;gap:12px}
 .credenciales li{display:flex;gap:12px;align-items:flex-start;color:#fff}
 .credenciales .barras{margin-top:5px}

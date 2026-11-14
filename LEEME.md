@@ -89,7 +89,7 @@ Con "Reducir movimiento" o sin JavaScript todo se ve completo y quieto.
 | Propiedades destacadas | lista `orden` en `js/catalogo.js` |
 | Textos | directo en cada HTML |
 
-Después de editar CSS o JS, cambiá el `?v=20261113b` de los HTML para que el hosting no sirva la versión vieja.
+Después de editar CSS o JS, cambiá el `?v=20261114a` de los HTML para que el hosting no sirva la versión vieja.
 
 ## De dónde salió cada dato
 
@@ -112,7 +112,7 @@ Después de editar CSS o JS, cambiá el `?v=20261113b` de los HTML para que el h
 | 4. Sin Open Graph | Resuelto. En la ficha se completa con JS |
 | 5. Meta description repetida | Resuelto: una por página |
 | 6. Filtros en la sesión | Resuelto: van en la URL |
-| 7. Ficha sin mapa | Pendiente de la API (marcador visible) |
+| 7. Ficha sin mapa | Resuelto con mapa por dirección (aproximado). El punto exacto llega con la latitud y longitud de la API |
 | 8. Enlace de email roto | Quitado |
 | 9. Precios "U$S 1" y `Alquier` | Resuelto: "Consultar" y "Alquiler" |
 | 10. "Tasasiones" y "© 2024" | Resuelto: año automático |
@@ -130,10 +130,11 @@ Después de editar CSS o JS, cambiá el `?v=20261113b` de los HTML para que el h
 6. **Manifiesto y bajadas**: redactados a partir del contenido institucional.
 7. **Orden por precio**: no mezcla monedas. Primero dólares, después pesos; "Consultar" al final.
 8. **Google Analytics 4** (`G-5YYN19STQM`) no está activo. Hay un comentario en el `<head>` de cada página.
-9. **Mapa de la oficina**: se carga recién al tocar "Ver el mapa" (privacidad y velocidad).
+9. **Mapas a la vista** (pedido del 14/11/2026): el de la oficina y el de cada ficha se cargan solos. El de la ficha busca por la dirección publicada, así que es aproximado; si la dirección no tiene calle (ej. JRM 2197) muestra la localidad.
 10. **Menú**: se acortó "Quiero Alquilar / Comprar / Vender" a "Alquilar / Comprar / Vender". Se mantienen las 7 secciones.
 11. **Banner Pueblo Mío**: se reemplazó la imagen con lightbox por una sección con datos de la publicación.
-12. **Git**: la carpeta no es un repositorio; no se commiteó nada.
+12. **Opiniones de Google**: nota 4,0 con 81 opiniones y tres opiniones de 5 estrellas copiadas a mano de la ficha pública el 14/11/2026 (texto original; en una se corrigió mayúscula y tilde inicial). No se actualizan solas: para eso hace falta la API de Google Places con clave y un servidor. Los botones usan el Place ID `ChIJgapC2VgMRZQRHr39D0rkBJw`.
+13. **Fotos de "Vender" y "Tasar"** (`img/que-vender.png`, `img/que-tasar.webp`): las pasó David. Confirmar que tienen licencia de uso antes de publicar.
 
 ## Pendientes
 
@@ -142,7 +143,6 @@ Después de editar CSS o JS, cambiá el `?v=20261113b` de los HTML para que el h
 | Credenciales de la API de Top Inmobiliario (JRM) | Cliente / SOM |
 | Backend para la API: catálogo completo (131), 404 real, sitemap y Open Graph por propiedad, mapa con latitud/longitud | Equipo, cuando haya credenciales |
 | Casilla de correo para los formularios | Cliente |
-| `[TESTIMONIO REAL DE CLIENTE]` en el inicio | Cliente |
 | `[FOTO DE LA OFICINA O DEL EQUIPO]` en La inmobiliaria | Cliente |
 | Logo en vector | Cliente / diseñador |
 | Confirmar si se mantiene GA4 `G-5YYN19STQM` | Cliente |
@@ -152,7 +152,7 @@ Después de editar CSS o JS, cambiá el `?v=20261113b` de los HTML para que el h
 
 Subir todo menos `materiales/`, `scripts/`, `.work/`, `direccion-de-arte.html` y este archivo. Configurar en el hosting que los errores 404 muestren `404.html`.
 
-No conviene publicar mientras queden los dos marcadores amarillos entre corchetes.
+No conviene publicar mientras quede el marcador amarillo entre corchetes (foto de la oficina).
 
 ## Revisión hecha (13/11/2026)
 

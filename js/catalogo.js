@@ -180,6 +180,10 @@
       return;
     }
     const titulo = `${p.tipoUno} en ${p.dir}`;
+    // Mapa por dirección (la muestra no trae latitud ni longitud). Sin nombre de calle, se muestra la localidad.
+    const calle = p.dir.replace(/\s*\(\d+\)\.?/, ',').replace(/\s+,/g, ',');
+    const zona = !/[a-záéíóúñ]{3}/i.test(calle);
+    const lugar = `${zona ? '' : `${calle}, `}${p.localidad}, Chaco, Argentina`;
     const msg = `Hola, me interesa la propiedad código JRM ${p.codigo} (${p.tipoUno.toLowerCase()} en ${p.operacion.toLowerCase()}, ${p.dir}, ${p.localidad}). ¿Podemos coordinar una visita?`;
     d.title = `${titulo}, ${p.localidad} · ${p.operacion} · J.R. Martínez Quiles`;
     const desc = `${p.tipoUno} en ${p.operacion.toLowerCase()} en ${p.dir}, ${p.localidad}, Chaco. ${p.resumenLimpio} ${precioTxt(p)}. Código JRM ${p.codigo}.`;
@@ -221,8 +225,9 @@
             ${p.descripcion ? `<section class="ficha__bloque" data-reveal><h2 class="titulo h-md">Descripción</h2><p class="ficha__desc">${esc(p.descripcion)}</p></section>` : ''}
             ${p.caracteristicas.length ? `<section class="ficha__bloque" data-reveal><h2 class="titulo h-md">Características</h2><dl class="rasgos">${p.caracteristicas.map((c) => `<div><dt>${esc(c.nombre)}</dt><dd>${esc(limpiarTexto(c.valor))}</dd></div>`).join('')}</dl></section>` : ''}
             <section class="ficha__bloque" data-reveal><h2 class="titulo h-md">Ubicación</h2>
-              <div class="mapa-pend"><p><b>${esc(p.dir)}, ${esc(p.localidad)}</b></p><p><span class="marcador">[MAPA: se activa con la latitud y longitud de la API de Top Inmobiliario]</span></p>
-              <a class="enlace" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${p.dir}, ${p.localidad}, Chaco, Argentina`)}">Buscar la dirección en Google Maps →</a></div>
+              <div class="mapa mapa--ficha"><iframe src="https://www.google.com/maps?q=${encodeURIComponent(lugar)}&z=${zona ? 13 : 16}&output=embed" title="Mapa: ${esc(p.dir)}, ${esc(p.localidad)}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div>
+              <p class="mapa__nota"><b>${esc(p.dir)}, ${esc(p.localidad)}</b> · ${zona ? 'Se muestra la localidad: la dirección publicada no alcanza para ubicarla.' : 'Ubicación aproximada según la dirección publicada.'}
+              <a class="enlace" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(lugar)}">Abrir en Google Maps →</a></p>
             </section>
           </div>
           <aside class="ficha__lado" data-oculta-barra>
