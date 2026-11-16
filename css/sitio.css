@@ -130,7 +130,7 @@ button{cursor:pointer}
 .linea{display:block;overflow:hidden;padding-bottom:.12em;margin-bottom:-.12em}
 .linea__in{display:block}
 .portada__bajada{max-width:34ch;color:var(--muted);font-size:clamp(15px,1.25vw,18px)}
-.portada__foto{position:relative;justify-self:center;width:min(80vw,560px);aspect-ratio:5/6;margin-bottom:-14%}
+.portada__foto{position:relative;justify-self:center;width:min(80vw,560px);aspect-ratio:5/6;margin-bottom:36px}
 .hex{position:relative}
 .hex .marco{position:absolute;inset:0;clip-path:var(--hex);overflow:hidden;background:var(--stone)}
 .hex .marco img{width:100%;height:112%;object-fit:cover}

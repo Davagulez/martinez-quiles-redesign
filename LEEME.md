@@ -89,7 +89,7 @@ Con "Reducir movimiento" o sin JavaScript todo se ve completo y quieto.
 | Propiedades destacadas | lista `orden` en `js/catalogo.js` |
 | Textos | directo en cada HTML |
 
-Después de editar CSS o JS, cambiá el `?v=20261116a` de los HTML para que el hosting no sirva la versión vieja.
+Después de editar CSS o JS, cambiá el `?v=20261116b` de los HTML para que el hosting no sirva la versión vieja.
 
 ## De dónde salió cada dato
 
