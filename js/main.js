@@ -11,7 +11,7 @@
   const hasGSAP = typeof window.gsap !== 'undefined' && typeof window.ScrollTrigger !== 'undefined';
   const safe = (fn) => { try { fn(); } catch (e) { console.warn('[mq]', e); } };
   const M = { ease: 'power4.out', easeIO: 'power3.inOut', pop: 'power4.out', dur: 1.05, stagger: 0.08, dist: 26, lerp: 0.1 };
-  const WA = '5493624302344';
+  const WA = '5493625224146';
   const waUrl = (texto) => `https://wa.me/${WA}?text=${encodeURIComponent(texto)}`;
 
   const telon = $('.telon'), cortina = $('.cortina');

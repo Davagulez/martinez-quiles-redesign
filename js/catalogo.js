@@ -8,7 +8,7 @@
   const $$ = (s, c = d) => [...c.querySelectorAll(s)];
   if (!DATA || !Array.isArray(DATA.propiedades)) return;
   const MQ = (window.MQ = window.MQ || {});
-  const WA = '5493624302344';
+  const WA = '5493625224146';
   const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
   // ---------- Normalización de datos ----------
