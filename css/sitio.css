@@ -457,7 +457,7 @@ button{cursor:pointer}
 .barra-movil--fuera{transform:translateY(110%)}
 @media (min-width:900px){.barra-movil{display:none}}
 
-.error404{min-height:100svh;display:grid;align-content:center;gap:22px;padding:calc(var(--cab) + 40px) 0 80px}
+.error404{min-height:100svh;display:grid;align-content:center;gap:22px;padding-block:calc(var(--cab) + 40px) 80px}
 .error404 .h-xl{font-size:clamp(90px,24vw,300px);line-height:.85}
 
 @media (prefers-reduced-motion:reduce){
